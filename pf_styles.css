@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+html{
+   
+}
+
+ body {
+    background-color: rgb(42, 248, 255);
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 800px;
+    text-align: center;
+ }
+header{
+    width:100%;
+}
+
+/* Nav Styles */
+
+nav a{
+   text-decoration: none;
+}
+
+nav.horizontal ul li{
+   list-style-type: none;
+   display: block;
+   float: left;
+   margin-right: 100px;
+   margin-left: none;
+}
+img{
+transform:translateX(-300px) translateY(50px);
+
+}
