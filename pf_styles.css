@@ -1,11 +1,15 @@
 @charset "utf-8";
-
+   @font-face {
+      font-family:'blox2';
+      src: url('Blox2.ttf') format('truetype');
+   }
+ 
 html{
    
 }
 
  body {
-    background-color: rgb(42, 248, 255);
+    background-color: black;
     margin: 0px auto;
     width: 90%;
     max-width: 1000px;
@@ -14,22 +18,39 @@ html{
  }
 header{
     width:100%;
+    padding-left:0;
 }
 
 /* Nav Styles */
 
-nav a{
-   text-decoration: none;
+nav{
+   transform: translateY(-250px);
+   transform: translateX(-200px);
+   position: fixed;
 }
-
-nav.horizontal ul li{
+ul {
    list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100px;
+   background-color: rgb(75, 75, 75);
+ }
+ li a {
+   color: rgb(255, 255, 255);
+   text-shadow:  rgb(145, 145, 145) 1px 0px 0px, rgb(0, 0, 0) 2px 0px 5px;
    display: block;
-   float: left;
-   margin-right: 100px;
-   margin-left: none;
-}
-img{
-transform:translateX(-300px) translateY(50px);
-
+   padding: 40px 18px 50px;
+   text-decoration: none;
+ }
+ li a:hover {
+   background-color: rgb(27, 27, 27);
+   color: white;
+ }
+h1#name{
+   color:rgb(0,255,255);
+   font-family: 'blox2';
+   text-shadow:  rgb(0, 145, 145) 1px 0px 0px, rgb(0, 145, 145) 2px 0px 5px;
+   font-size:10em;
+   
+   
 }
